@@ -17,11 +17,6 @@ find_package(rosidl_default_generators REQUIRED) # i added this line
 
 # ============================> From now on everytime you add a .msg file, you have to add it in below generate interfaces code.
 rosidl_generate_interfaces(${PROJECT_NAME}
-  "msg/HardwareStatus.msg"
-  "msg/NewTurtleParams.msg"
-  "srv/ComputeRectangleArea.srv"
-  "msg/LedStateArray.msg"
-  "srv/SetLed.srv"
   "srv/TargetTurtleParams.srv"
   "srv/KillServerParams.srv"
 )
