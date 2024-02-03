@@ -10,8 +10,7 @@
   <buildtool_depend>ament_cmake</buildtool_depend>
 
 <!--   ================ code that i added ===================== -->
-  <exec_depend>my_py_pkg</exec_depend>
-  <exec_depend>catch_them_all</exec_depend>
+  <exec_depend>turtle_carnage</exec_depend>
   <exec_depend>turtle_sim</exec_depend>
 <!--   ================ code that i added ===================== -->
 
