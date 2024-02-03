@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-package_name = 'catch_them_all'
+package_name = 'turtle_carnage'
 
 setup(
     name=package_name,
@@ -20,12 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            "turtle_spawn_client = catch_them_all.turtle_spawn_client:main",
-            "catch_turtle = catch_them_all.catch_turtle:main",
-            "turtle_life = catch_them_all.turtle_life:main",
-            "turtle_path = catch_them_all.turtle_path:main",
-            "turtle_controller = catch_them_all.turtle_controller:main",
-            "turtle_spawner = catch_them_all.turtle_spawner:main"
+            "turtle_controller = turtle_carnage.turtle_controller:main",
+            "turtle_spawner = turtle_carnage.turtle_spawner:main"
         ],
     },
 )
