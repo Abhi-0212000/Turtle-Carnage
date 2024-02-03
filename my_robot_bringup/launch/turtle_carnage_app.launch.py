@@ -12,13 +12,13 @@ def generate_launch_description():   # name has to be exactly same
     )
     
     turtle_spawner_node = Node(
-        package = "catch_them_all",     # pkg name from which exe has to be launched.
+        package = "turtle_carnage",     # pkg name from which exe has to be launched.
         executable="turtle_spawner"  # executable name (this name has to be same as the name from setup.py of that pkg)
 
     )
 
     turtle_controller_node = Node(
-        package = "catch_them_all",
+        package = "turtle_carnage",
         executable="turtle_controller"
     )
 
