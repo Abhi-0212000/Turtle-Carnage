@@ -40,6 +40,9 @@ Here's how the game unfolds:
    - It sends a client request to the `/kill` service of the `turtlesim_node`.
    - A new target turtle is spawned, and the cycle continues.
 
+## Node-Communications-Map
+![turtleCarnageCommunicationMap](./turtleCarnageCommunicationMap.png)
+
 https://github.com/Abhi-0212000/Turtle-Carnage/assets/70425157/9b7586b9-d526-464d-abfd-8b6a01dab577
 
 ## Software Requirements
